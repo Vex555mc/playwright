@@ -24,7 +24,7 @@ def before_each_after_each(page: Page):
 
     yield  #тест выполняется
 
-    print("after the test runs")  # сообщение после завершения теста
+    print("after the test runs")  #сообщение после завершения теста
 
 
 def test_main_navigation(page: Page):
