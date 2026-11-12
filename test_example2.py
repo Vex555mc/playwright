@@ -34,4 +34,4 @@ def test_main_navigation(page: Page):
     #добавлено: проверка, что в заголовке есть слово playwright
     expect(page).to_have_title(re.compile(r"Playwright$"))
 
-#day1: пример из paywright, добавлена проверка заголовка и вынесен BASE_URL
+#day2: пример из paywright, добавлена проверка заголовка и вынесен BASE_URL
